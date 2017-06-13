@@ -81,7 +81,7 @@ int main (int argc, char* argv[]) {
         }
 
         //there must be 2 numbers to allocate
-        if(num2Size == 0) {
+        if(num2Size < 2) {
             exit(EXIT_FAILURE);
         }
 
